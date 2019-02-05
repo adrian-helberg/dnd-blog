@@ -1,0 +1,9 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{3}% 
+\contentsline {section}{\numberline {2}Charaktervorstellung}{4}% 
+\contentsline {subsection}{\numberline {2.1}Heagan}{4}% 
+\contentsline {subsection}{\numberline {2.2}Kerlia}{4}% 
+\contentsline {subsection}{\numberline {2.3}Koriel}{4}% 
+\contentsline {subsection}{\numberline {2.4}Rurik}{4}% 
+\contentsline {subsection}{\numberline {2.5}Thurmond}{4}% 
+\contentsline {subsection}{\numberline {2.6}Turian}{4}% 
