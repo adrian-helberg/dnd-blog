@@ -3,30 +3,39 @@
 
 \documentclass[11pt, openany]{article} % Preamble
 \usepackage{amsmath} % Packages
-\usepackage[english, ngerman]{babel}% Language
+\usepackage[ngerman]{babel}% Language
 \usepackage{fontspec} % Font
-\usepackage[urf8]{inputenc}
+%\usepackage[urf8]{inputenc} % Note: Not for LuaLaTeX-Compiler
 \setmainfont[ItalicFont=Dominican Italic]{Dominican}
 \usepackage[absolute]{textpos} % Positioning
+\usepackage[percent]{overpic} % Grafiken
+\usepackage{color} % Farben zB. Schriftfarbe
 
 % Title
 \title{\fontsize{40pt}{42pt}\selectfont Dungeons \& Dragons \\
 Rathians Hort
-\author{Blinzlar}
+\author{Schriftf\"uhrer: Der Dungeonmaster}
 \date{Letzte Federf\"uhrung: \today}
 \begin{textblock}{4}(6,10)
 \Huge Reisetagebuch
 \end{textblock}
 }
 
-% Table of contents
+% Table of contents additions
 \addto\captionsngerman{
 \renewcommand{\contentsname}
 {Schlachtplan}
 }
 
+% Force linebreaking on words that would be hyphenated
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
 % Content
 \begin{document}
+
 \maketitle
 \newpage
 \tableofcontents
@@ -37,7 +46,28 @@ Rathians Hort
 %%%%%%%%%%%%%%
 \section{Einleitung}
 
-Gegr\"u"st seist du werter Wanderer, abenteuerlicher Gesell!\\ Das Fabelhafte, das du hier lesen wirst, schreibt sich als Erfahrung einer Gruppe von wackeren Recken nieder, die einmal Abenteuerluft geschnuppert, auf eine Reise ins Unbekannte aufbrachen. Nimm nur all deinen Mut zusammen und folge ihnen durch Raum und Zeit und werde Zeuge einer Menge Spa"s, Frust und Angstschwei"s! Man F\"uhre sich folgende Zitate zu Gem\"ute:
+Gegr\"u"st seist du werter Wanderer, abenteuerlicher Gesell!\\ Das Fabelhafte, das du hier lesen wirst, schreibt sich als Erfahrung einer Gruppe von wackeren Recken nieder, die einmal Abenteuerluft geschnuppert, auf eine Reise ins Unbekannte aufbrachen. Nimm nur all deinen Mut zusammen und folge ihnen durch Raum und Zeit; Werde Zeuge einer Menge Spa"s, Frust und Angstschwei"s!\\
+
+Doch zun\"achst bedenke, dass die Geschichte nicht abgeschlossen oder vollst\"andig ist. Da unsere Rollenspielgruppe zur Zeit etwa 2-3 Stunden pro Woche in die Gestaltung der Abenteuer investieren kann, wird dieser Bericht stetig erweitert und weicht von den Geschehnissen in unseren D\&D-Sessions ab. Des Weiteren ergibt sich mir als Story-Teller diesbez\"uglich die M\"oglichkeit die Gemeinschaft mit Informationen \"uber die Welt zu versorgen. \\
+
+Die Welt, wie die Gruppe sie formt, erhebt keinen Anspruch auf Deckungsgleichheit mit dem Niedergeschriebenen aus den Dungeons \& Dragons B\"uchern. Eher habe ich eine mehr-oder-weniger konkrete Vorstellung meiner eigenen Welt und hoffe, dass der Leser den einen oder anderen Konsistenzfehler entschuldigt. F\"ur Verbesserungsvorschl\"age bin ich jederzeit offen!\\
+
+Man wird obendrein meine Vorliebe f\"ur das \mbox{''\textit{Das Schwarze Auge}''} - Universum feststellen, da ich dessen G\"otterpantheon adaptiert habe.\\
+
+\begin{center}
+    GENUG GEFASELT\\
+    - Ein Zwerg raunt mich von der Seite an -\\
+    DU BIST MIT DER N\"ACHSTEN RUNDE DRAN!\\
+    - Ich sollte ihn nicht darauf aufmerksam machen, -\\
+    - dass ein Brocken Kalbsleber in seinem Barte h\"angt... -\\
+    - Ach was solls, wer will schon ewig Leben?! -
+\end{center}
+
+\newpage
+
+\subsection{Lebenswei"sheiten}
+
+Man F\"uhre sich folgende Zitate zu Gem\"ute. Dieser Abschrift wird stetig erweitert. Lesen auf eigene Gefahr!
 
 \begin{quote}
     \textit{"Die Geschichten des Reisetagebuchs entspringen einer Reihe von D\&D-Sessions, sprich: Eine Aneinanderreihung von Bl\"odeleien, Unsinn und empirischer Feldforschung"}
@@ -54,30 +84,78 @@ Gegr\"u"st seist du werter Wanderer, abenteuerlicher Gesell!\\ Das Fabelhafte, d
 \end{quote}
 
 \begin{quote}
-    \textit{Elfische Volksweisheit, stark vereinfacht: "Wer seine Artgenossen befriedigt, hat Selbstbefriedigung erlangt"}
+    Elfische Volksweisheit, stark vereinfacht: \textit{"Wer seine Artgenossen befriedigt, hat Selbstbefriedigung erlangt"}
     \begin{flushright}
         - Eine Elfe
     \end{flushright}
 \end{quote}
 
-Zwergenfaustregel f\"ur diese Abschrift:
-\begin{enumerate}
-    \item[1.] Ja, es sind Tiere beim Verfassen dieses Buchs oder w\"ahrend des D\&D-Spiels zu Schaden gekommen. Wir hatten halt Hunger!
-    \item[2.] Der Meister (das bin ich) steht \"uber allem. MUHAHA!
-    \item[3.] \"Ahnlichkeiten mit den Figuren im Buch gegen\"uber der Wirklichkeit sind mir egal
-    \item[4.] Weitere folgen
-\end{enumerate}
+\begin{quote}
+    Mitstreiter infiltriert Piratenschiff, schleicht sich an Deck und versteckt sich (kritisch verpatzter Wurf) an Deck.\\ Im Klartext: Dieser Taugenichts sitzt auf dem Vordeck mit einem leeren Fass auf dem Kopf und denkt er sei versteckt...\\ Das bleibt nat\"urlich nicht unbemerkt:\\
+    Pirat: \textit{''WER BIST DU?!''}\\
+    Jene verkrachte Existenz: \textit{''Ich bin der Neue!''}\\ - Man denke sich \"ubertriebenen Enthusiasmus -
+    \begin{flushright}
+        - Zum Charakter oder Spieler m\"ochte ich schweigen.\\
+        Oder besser noch: Eine Schweigeminute einlegen
+    \end{flushright}
+\end{quote}
+
+\begin{quote}
+    \textit{''Unsere Gruppe ist am Arsch!''}\\
+    \textit{''Warum? Was ist passiert?''}\\
+    \textit{''Unser Ork hat einen Intelligenz-Trank getrunken und besteht nun darauf sich beim \"ortlichen Praioten eine schriftliche Vollmacht zur Ergreifung des Diebes zu holen... Da l\"auft er \"ubrigens''}
+    \begin{flushright}
+        - Wenn man als Meister mal kurz nicht hinh\"ort
+    \end{flushright}
+\end{quote}
+
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 % Charaktervorstellung %
 %%%%%%%%%%%%%%%%%%%%%%%%
-\section{Charaktervorstellung}
+\section{Dramatis Personae}
+
+''\textit{Helden? Wer hat hier etwas von Helden erz\"ahlt? Nein die folgenden Charaktere sind keine Helden. Eher sowas wie hineingestolperte Personen, die hoffen irgendwie klarzukommen}''\\
+Da diese Illusion jetzt auch vom Tisch ist: Hier die Leutchen, die der Leser kennen lernen sollte.
 
 \subsection{Heagan}
+
+Heagen ist ein junger, mittelgro"ser Mann von 2 Jahrzehnten mit azurblauen Augen und kupfernem Haar.
+Als junges Kind wurde er im Peraine-Tempel aufgenommen, da seine Eltern sich nicht um ihn k\"ummern konnten.
+
+\begin{figure}[h]
+    \begin{overpic}[width=\textwidth, height=0.12\textheight]{../img/parchment_light.jpg}
+        \put (2,14) {Peraine ist die G\"ottin des Ackerbaus und der Heilkunst.}
+        \put (2,10) {Sie wird von der \"uberwiegenden Mehrheit der Bev\"olkerung verehrt, da diese}
+        \put (2,6)  {l\"andlich strukturiert ist. Das Wappen Peraines ist eine goldene \"Ahre auf}
+        \put (2,2)  {gr\"unem Grund. Eine als peraineheilig geltende Frucht ist der Goldapfel.}
+    \end{overpic}
+\end{figure}
+
+Dort wurde er von den Priestern vieles gelehrt; Vor allem den Umgang mit Pflanzen und das Versorgen der Kranken. Die meiste Zeit sa"s er vertieft in die Schriften des Tempels um dessen Wissen in sich aufzunehmen. Wenn Menschen in den Tempel kamen und der Heilung bedurften, pflegte Heagen sie, bis sie gesund waren. Weiter hatte er weniger Kontakt mit den Menschen au"serhalb des Tempels. Das Wichtigste, das ihn die Priester leehrten war die Vermeidung von Konflikten und das Sch\"utzen jeglichen Lebens so gut er konnte.  Mithilfe dieses Wissens ist er in der Lage auch au"serhalb des Tempels seine eigenen Wege zu finden. Die Gesetze der G\"ottin sind ihm heilig und er h\"alt sich stets an diese; Das hat er sich geschworen, als er damals fortging.
+
+\newpage
+
 \subsection{Kerlia}
+
+Die freiheitsliebende Kerlia ist eine junge Hochelfin von mittlerem Wuchs und hellblauen Augen. Das rote Haar und die blasse Haut laden zum Tr\"aumen ein.
+
+\begin{figure}[h]
+    \begin{overpic}[width=\textwidth, height=0.18\textheight]{../img/parchment_light.jpg}
+        \put (2,22) {Hochelfen sind magiebegabte Elfen, die im Allgemeinen viel Wert auf Gr\"o"se,}
+        \put (2,18) {Prunk und Kunstfertigkeit, Philosophie, Kunst, Musik, Architektur,}
+        \put (2,14) {Rhetorik und andere intellektuelle und k\"unstlerische Bet\"atigungen legen.}
+        \put (2,10) {F\"ur den Menschen wirken Hochelfen  unfassbar sch\"on, was wohl ihrer}
+        \put (2,6) {makellosen Haut, der Weichheit ihrer Sprache und dem perfekten K\"orperbau}
+        \put (2,2) {zuzusprechen ist.}
+    \end{overpic}
+\end{figure}
+
+Doch der \"Au"sere Schein kann tr\"ugen! Kerlia ist eine Piratin durch und durch. Sich selbst sieht sich als diejenige, die von den Leuten, die zu viel haben, nimmt und den weniger betuchten gibt. Nichtsdestotrotz k\"onnen diese, welche sich zu ihren Freunden und Mitstreitern z\"ahlen auf Kerlia verlassen und ihr vertrauen. In St\"adten und auf hoher See f\"uhlt sie sich zuhause und ihre gr\"o"ste Angst ist der K\"afig.
+
 \subsection{Koriel}
 \subsection{Rurik}
 \subsection{Thurmond}
-\subsection{Turian}
 
 \end{document}

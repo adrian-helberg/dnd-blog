@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.09.0 (MiKTeX 2.9.6930 64-bit)  (format=lualatex 2019.2.5)  5 FEB 2019 21:57
+This is LuaTeX, Version 1.09.0 (MiKTeX 2.9.6930 64-bit)  (format=lualatex 2019.2.5)  9 FEB 2019 20:38
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -49,7 +49,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.122 seconds
+luaotfload | main : initialization completed in 1.153 seconds
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/size11.clo"
@@ -216,19 +216,6 @@ Package babel Info: Non-standard hyphenation setup on input line 114.
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
 babel
 )
-("C:/Program Files/MiKTeX 2.9/tex/latex/babel-english/english.ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
-
-("C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.def"
-File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count100
-\U@D=\dimen112
-
-("C:/Program Files/MiKTeX 2.9/tex/generic/babel/luababel.def"))
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-)
 ("C:/Program Files/MiKTeX 2.9/tex/latex/babel-german/ngerman.ldf"
 Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthograp
 hy)
@@ -236,6 +223,13 @@ hy)
 ("C:/Program Files/MiKTeX 2.9/tex/latex/babel-german/ngermanb.ldf"
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogra
 phy)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.def"
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count100
+\U@D=\dimen112
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/luababel.def"))
 Package babel Info: Making " an active character on input line 121.
 
 ("C:/Program Files/MiKTeX 2.9/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.t
@@ -440,26 +434,6 @@ LaTeX Info: Redefining \em on input line 3689.
 LaTeX Info: Redefining \emph on input line 3714.
 LaTeX Info: Redefining \- on input line 3768.
 ))
-("C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty"
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
-
-
-C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty:165: Package inputenc E
-rror: inputenc is not designed for xetex or luatex.
-(inputenc)                only UTF-8 supported.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 \endinput
-             
-For xelatex or lualatex save the document in UTF-8 encoding
-and do not use inputenc, or use the [utf8] option.
-
-)
 luaotfload | cache : Lookup cache loaded from C:/Users/Main/AppData/Local/MiKTeX
 /2.9/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | aux : font no 28 (nil) defines no feature for script latn
@@ -502,7 +476,8 @@ Package fontspec Info: Font family 'Dominican(0)' created for font 'Dominican'
 (fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
 
 LaTeX Info: Redefining \rmfamily on input line 10.
- ("C:/Program Files/MiKTeX 2.9/tex/latex/textpos/textpos.sty"
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/textpos/textpos.sty"
 Package: textpos 2016/06/07 v1.8
 
 Package: textpos 2016/06/07 1.8, absolute positioning of text on the page
@@ -511,7 +486,7 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 ("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks19
 )
 \TP@textbox=\box47
 \TP@holdbox=\box48
@@ -524,9 +499,59 @@ Grid set 16 x 16 = 38.39343pt x 49.68562pt
 \TPboxrulesize=\dimen152
 \TP@ox=\dimen153
 \TP@oy=\dimen154
-\TP@tbargs=\toks22
+\TP@tbargs=\toks20
 \TP@prevdepth=\dimen155
 TextBlockOrigin set to 0pt x 0pt
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/overpic/overpic.sty"
+Package: overpic 2018/09/02 1.2 picture overlays (RN)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/eepic/epic.sty"
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count196
+\d@lta=\count197
+\@delta=\dimen158
+\@@delta=\dimen159
+\@gridcnt=\count198
+\@joinkind=\count199
+\@dotgap=\dimen160
+\@ddotgap=\dimen161
+\@x@diff=\count266
+\@y@diff=\count267
+\x@diff=\dimen162
+\y@diff=\dimen163
+\@dotbox=\box49
+\num@segments=\count268
+\num@segmentsi=\count269
+\@datafile=\read2
+)
+\OVP@box=\box50
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 147.
 )
 
 LaTeX Warning: Unused global option(s):
@@ -535,117 +560,182 @@ LaTeX Warning: Unused global option(s):
 (I:/git/dnd-blog/out/main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
-LaTeX Font Info:    Redeclaring math accent \check on input line 29.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 37.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 37.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 37.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 37.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 37.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 37.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 37.
+LaTeX Font Info:    Redeclaring math accent \check on input line 37.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 37.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 37.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 37.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 37.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 37.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 29.
+(Font)              `operators' in the math version `normal' on input line 37.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Dominican(0)/m/n on input line 29.
+(Font)                  OT1/cmr/m/n --> TU/Dominican(0)/m/n on input line 37.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 29.
+(Font)              `operators' in the math version `bold' on input line 37.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Dominican(0)/m/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> TU/Dominican(0)/m/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/Dominican(0)/m/n --> TU/Dominican(0)/m/n on input lin
-e 29.
+e 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Dominican(0)/m/it on input line 29.
+(Font)                  OT1/cmr/m/it --> TU/Dominican(0)/m/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Dominican(0)/bx/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> TU/Dominican(0)/bx/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/Dominican(0)/m/n --> TU/Dominican(0)/bx/n on input li
-ne 29.
+ne 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Dominican(0)/bx/it on input line 29
+(Font)                  OT1/cmr/bx/it --> TU/Dominican(0)/bx/it on input line 37
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 29.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 29.
- ABD: EveryShipout initializing macros [1{C:/Users/Main/AppData/Local/MiKTeX/2.9
-/pdftex/config/pdftex.map}
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 37.
+ ABD: EveryShipout initializing macros
+(C:/Users/Main/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count270
+\scratchdimen=\dimen164
+\scratchbox=\box51
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen165
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks22
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+))))
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks23
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+) [1{C:/Users/Main/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
 
 LaTeX Font Warning: Font shape `TU/Dominican(0)/bx/n' undefined
-(Font)              using `TU/Dominican(0)/m/n' instead on input line 32.
+(Font)              using `TU/Dominican(0)/m/n' instead on input line 41.
 
 (I:/git/dnd-blog/out/main.toc)
 \tf@toc=\write3
 
 \openout3 = main.toc
- [2]
-Overfull \hbox (3.59999pt too wide) in paragraph at lines 43--44
-\TU/Dominican(0)/m/it/10.95 D&D-Sessions, sprich: Ei-ne An-ein-an-der-rei-hung 
-von Blö-de-lei-en, Un-
- []
+ [2] [3] [4]
+<../img/parchment_light.jpg, id=16, 3011.25pt x 2012.51875pt>
+File: ../img/parchment_light.jpg Graphic file (type jpg)
+<use ../img/parchment_light.jpg>
+Package luatex.def Info: ../img/parchment_light.jpg  used on input line 128.
+(luatex.def)             Requested size: 360.00192pt x 64.94852pt.
+ [5<../img/parchment_light.jpg>]
+File: ../img/parchment_light.jpg Graphic file (type jpg)
+<use ../img/parchment_light.jpg>
+Package luatex.def Info: ../img/parchment_light.jpg  used on input line 145.
+(luatex.def)             Requested size: 360.00192pt x 97.43814pt.
 
-[3] [4] (I:/git/dnd-blog/out/main.aux)
+[6] (I:/git/dnd-blog/out/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 12774 strings out of 494300
- 100000,383344 words of node,token memory allocated
- 527 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 8 attribute, 53 glue_spec,
+ 14184 strings out of 494300
+ 100000,460012 words of node,token memory allocated
+ 522 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 8 attribute, 52 glue_spec,
  8 attribute_list, 1 write nodes
-   avail lists: 2:207,3:79,4:5,5:52,6:20,7:1560,8:1,9:68,10:4,11:149
- 16803 multiletter control sequences out of 65536+200000
+   avail lists: 2:205,3:67,4:30,5:59,6:13,7:1832,8:1,9:65,10:15,11:183
+ 18063 multiletter control sequences out of 65536+200000
  54 fonts using 7183983 bytes
- 47i,6n,68p,438b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,6n,68p,762b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/domii__.ttf><C:/Windows/Fonts/dominica.ttf>
-Output written on main.pdf (4 pages, 47985 bytes).
+Output written on main.pdf (6 pages, 1498322 bytes).
 
-PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

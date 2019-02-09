@@ -1,9 +1,10 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Einleitung}{3}% 
-\contentsline {section}{\numberline {2}Charaktervorstellung}{4}% 
-\contentsline {subsection}{\numberline {2.1}Heagan}{4}% 
-\contentsline {subsection}{\numberline {2.2}Kerlia}{4}% 
-\contentsline {subsection}{\numberline {2.3}Koriel}{4}% 
-\contentsline {subsection}{\numberline {2.4}Rurik}{4}% 
-\contentsline {subsection}{\numberline {2.5}Thurmond}{4}% 
-\contentsline {subsection}{\numberline {2.6}Turian}{4}% 
+\contentsline {subsection}{\numberline {1.1}Lebenswei"sheiten}{4}% 
+\contentsline {section}{\numberline {2}Dramatis Personae}{5}% 
+\contentsline {subsection}{\numberline {2.1}Heagan}{5}% 
+\contentsline {subsection}{\numberline {2.2}Kerlia}{6}% 
+\contentsline {subsection}{\numberline {2.3}Koriel}{6}% 
+\contentsline {subsection}{\numberline {2.4}Lancelin}{6}% 
+\contentsline {subsection}{\numberline {2.5}Rurik}{6}% 
+\contentsline {subsection}{\numberline {2.6}Thurmond}{6}% 
